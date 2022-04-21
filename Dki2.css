@@ -1,0 +1,116 @@
+.container
+{
+    width: 100%;/*Chiều cao tính từ mép bên trái ngoài cùng của thành phần*/
+    padding: 80px;
+    height: 700px;
+    text-align: center;
+}
+.tong /* màu */
+{
+    background-image: url('https://thuthuatnhanh.com/wp-content/uploads/2018/07/hinh-anh-thien-nhien-phong-canh-dep-nhat.jpg');
+}
+form {
+    padding: 20px 0;
+    position: relative;
+    z-index: 2;
+  }
+  form input {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    outline: 0;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 400px;
+    border-radius: 30px;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    transition-duration: 0.25s;
+    font-weight: 300;
+  }
+  form input:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  form input:focus {
+    background-color: white;
+    width: 500px;
+    color: #53e3a6;
+  }
+  form button {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #53e3a6;
+    border-radius: 30px;
+    width: 250px;
+    cursor: pointer;
+    font-size: 18px;
+    transition-duration: 0.25s;
+  }
+  form button:hover {
+    background-color: #f5f7f9;
+  }
+
+img.a{
+    vertical-align: baseline;
+}
+.bg-g{
+    background-color:#29a974;
+}
+.in4{
+  height: 300px;
+  color: black;
+  
+}
+#intro{
+  float: left;
+  color: black;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+#intro2{
+  text-align: left;
+  width: 250px;
+  margin-left: 200px;
+  color: black;
+}
+#contact{
+  float: right;
+  margin-top: -270px;
+  margin-right: 350px;
+}
+#contact2{
+  width: 250px;
+  float: right;
+  margin-top: -235px;
+  margin-right: 180px;
+}
+.a{
+  width: 130px;
+  height: 120px;
+  margin-left: 30px;
+  margin-top: 20px;
+  
+}
+.b{
+  color: rgb(74, 60, 199);
+  font-size: 50px;
+  margin-left: 190px;
+  margin-top: -20px;
+  
+}
+header
+{
+    width: 100%;
+    height: 150px;
+    font-family: 'Source Sans Pro'; 
+    background: linear-gradient(#93B874, #5ec7ee);
+}

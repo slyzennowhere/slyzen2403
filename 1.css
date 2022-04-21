@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding:0;
+}
+header
+{
+    width: 100%;
+    height: 150px;
+    font-family: 'Source Sans Pro'; 
+    background: linear-gradient(#93B874, #5ec7ee);
+}
+
+.a{
+    width: 130px;
+    height: 120px;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+  }
+.b{
+    color: rgb(74, 60, 199);
+    font-size: 50px;
+    margin-left: 190px;
+    margin-top: -20px;
+}
+p{
+    color:rgb(74, 60, 199);
+}
+h1
+{
+    text-align:center;
+    font-size: 50px;
+    font-style: italic;
+}
+.container
+{
+    width: 100%;/*Chiều cao tính từ mép bên trái ngoài cùng của thành phần*/
+    padding: 40px;
+    height: 100px;
+    text-align: center;
+}
+.tong /* màu */
+{
+    background-image: url('https://thuthuatnhanh.com/wp-content/uploads/2018/07/hinh-anh-thien-nhien-phong-canh-dep-nhat.jpg');
+}
+form {
+    padding: 20px 0;
+    position: relative;
+    z-index: 2;
+  }
+  form input {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    outline: 0;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 250px;
+    border-radius: 30px;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    transition-duration: 0.25s;
+    font-weight: 300;
+  }
+  form input:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  form input:focus {
+    background-color: white;
+    width: 300px;
+    color: #53e3a6;
+  }
+  form button {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #53e3a6;
+    border-radius: 30px;
+    width: 250px;
+    cursor: pointer;
+    font-size: 18px;
+    transition-duration: 0.25s;
+  }
+  form button:hover {
+    background-color: #f5f7f9;
+  }
+  .r{
+    margin: 50px;
+    float: right;
+    max-width: 500px;
+  }
+  .l{
+    
+    margin: 50px;
+    float: left;
+  }
+  .rs{
+    float:none;
+    margin: 50px;
+    margin-left:750px;
+  }
+.bg-g{
+
+  background-color:#29a974;
+}
+
+
+.divTable
+{
+  background-color: rgb(210, 208, 208);
+    margin:100px;
+    margin-left: 25%;
+    display:  table;
+    width:1000px;
+    border-spacing:5px;
+    border-radius: 30px;
+}
+.divTable>img
+{
+  border-radius: 30px;
+}
+.divRow
+{
+   display:table-row;
+   width:auto;
+}
+
+.divCell
+{
+
+    float:left;/*fix for  buggy browsers*/
+    display:table-column;
+    width:465px;
+}
+.size
+{
+  width:100%;
+}
+.back
+{
+  background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+  background: -moz-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+  background: -o-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+  background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+}
+.div
+{
+  margin:50px 0px 30px 130px;
+  height:350px;
+  width:249px;
+  display:inline-block;
+}
+.div1
+{
+  height:348px;
+  width:249px;
+  text-align:center;
+  background-color: rgb(216, 208, 208);
+  border-radius: 10px;
+  margin-left: 100px;
+  box-shadow:0px 4px 4px 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.div1>img{
+  border-radius: 10px;
+  max-height:219px;
+  max-width:249px;
+}
+.red{
+  color:red;
+}
+ul li:hover{
+  background:rgb(32, 168, 98) ;
+}
+.div1:hover
+{
+  display: block;
+  transition: all .3s ease;
+  transform: scale(1.1) ;
+}
+footer{
+  display: block;
+}
+.in4{
+  height: 300px;
+  
+}
+#intro{
+  float: left;
+  color: black;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+#intro2{
+  text-align: left;
+  width: 250px;
+  margin-left: 200px;
+
+}
+#contact{
+  float: right;
+  color: black;
+  margin-top: -270px;
+  margin-right: 350px;
+}
+#contact2{
+  width: 250px;
+  float: right;
+  margin-top: -235px;
+  margin-right: 180px;
+}
+.back1
+{
+  background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/997070/6704338131eac5f8ab62a23153e5d5c8712393b1.jpg");
+}
+.back2
+{
+  background-image: url(https://wallpaperaccess.com/full/4326438.jpg);
+}
+
+
